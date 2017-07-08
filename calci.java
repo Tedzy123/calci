@@ -31,6 +31,8 @@ public static void main(String[] args) {
                       break;
             case '^': answer = Maths.power(inputA, inputB);
                       break;
+            case '>' : answer = Maths.poer(inputA ,  inputB);
+                break;
         }
 
             System.out.println(answer);             
