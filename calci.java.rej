@@ -1,0 +1,12 @@
+diff a/calci.java b/calci.java	(rejected hunks)
+@@ -31,8 +31,8 @@
+                       break;
+             case '^': answer = Maths.power(inputA, inputB);
+                       break;
+-            case '>' : answer = Maths.poer(inputA ,  inputB);
+-                break;
++case '>': answer  = Maths.compare(inputA , inputB);
++break;
+         }
+ 
+             System.out.println(answer);             
